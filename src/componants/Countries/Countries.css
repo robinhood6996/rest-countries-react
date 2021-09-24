@@ -1,0 +1,15 @@
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin: 20px;
+}
+
+h1 {
+   background-color: #0b0a2c;
+    padding: 25px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
